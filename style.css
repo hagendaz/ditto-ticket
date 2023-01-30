@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a{
+    color: white;
+}
+
+.main{
+    background-image: url(/images/bg.png);
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.button{
+    margin-top: auto;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
