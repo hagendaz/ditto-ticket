@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ditto_ticket</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="ticket_warp">
+                <div class="ticket">
+                    <img src="/images/ticket.png" alt="">
+
+
+                    <div class="textBox">
+                        <div class="textBox_border">
+                            <div>
+                                <label for="title">TITLE</label>
+                                <input type="text" id="title" name="title" placeholder="제목을 작성해주세요" required
+                                    minlength="4" maxlength="20" size="10">
+                            </div>
+                            <div>
+                                <label for="when">WHEN</label>
+                                <input type="text" id="when" name="when" placeholder="날짜를 작성해주세요" size="10">
+                            </div>
+                            <div>
+                                <label for="where">WHERE</label>
+                                <input type="text" id="where" name="where" placeholder="장소를 지정해주세요" required
+                                    minlength="4" maxlength="20" size="10">
+                            </div>
+                            <div class="line">
+                                <label for="what">WHAT</label>
+                                <input type="text" id="what" name="what" placeholder="내용을 작성해주세요" required minlength="4"
+                                    maxlength="20" size="10">
+                            </div>
+                            <div class="line detail">
+                                <label for="detail">DETAIL</label>
+                                <input type="text" id="detail" name="detail" placeholder="비고" required minlength="4"
+                                    maxlength="50" size="10">
+                            </div>
+
+                            <div class="line">
+                                <label for="member">MEMBER</label> <input type="text" id="detail" name="detail"
+                                    placeholder="인원을 작성해주세요" required minlength="4" maxlength="50" size="10">
+                            </div>
+
+                            <div class="line agree">
+                                <p>AGREEMENT</p>
+                            </div>
+                            <div class="agreement">
+                                <input type="radio" id="agreement1" name="agreement" value="yes">
+                                <label for="agreement1">YES</label>
+
+                                <input type="radio" id="agreement2" name="agreement" value="no">
+                                <label for="agreement2">NO</label>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" id="submit" onclick="alert('서비스 준비 중입니다')" class="btn btn-primary">SHARE</button>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+</script>
+</body>
+
+</html>

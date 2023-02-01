@@ -15,6 +15,11 @@ a{
     color: white;
 }
 
+h2{
+    text-align: center;
+}
+
+
 .main{
     background-image: url(/images/bg.png);
     width: 100%;
@@ -33,9 +38,24 @@ section{
     width: 100%;
 }
 
+.logo{ 
+    background-image: url(/images/title.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    margin-top: 320px;
+    /* border: 1px solid red; */
+}
 
-.button{
+.startButton{
     margin-top: auto;
     font-size: 16px;
     margin-bottom: 100px;
+}
+
+.startButton:hover{
+    opacity: 50%;
+    cursor: pointer;
 }
